@@ -1,0 +1,18 @@
+H1 {
+    border: blue solid;
+}
+
+H2 {
+    border: blue solid;
+}
+
+.navbar{
+    text-align: right;
+    border: blue solid;
+}
+
+.profilePicture{
+    display: flex;
+    justify-content: center;
+
+}
