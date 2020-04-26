@@ -28,10 +28,20 @@ H2 {
     padding: 20px;
     margin: 20px;
 }
+
+.flexItem2{
+    margin: 0px 16px 16px 0;
+    align-items: flex-start;
+}
+
+.limitedMargin{
+    margin: 0 0 0 0;
+}
 .navbar{
     border: blue solid;
 }
 
+}
 .profilePicture{
     padding: 20px;
     margin: 20px;
