@@ -6,13 +6,40 @@ H2 {
     border: blue solid;
 }
 
+.border{
+    border: blue solid;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: blue solid;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: blue solid;
+}
+
+.flexItem{
+    padding: 20px;
+    margin: 20px;
+}
 .navbar{
-    text-align: right;
     border: blue solid;
 }
 
 .profilePicture{
-    display: flex;
-    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: blue solid;
+}
 
+@media (max-width: 576px) {
+    body {
+        background-color: rgb(129, 200, 221);
+    }
 }
