@@ -42,4 +42,22 @@ H2 {
     body {
         background-color: rgb(129, 200, 221);
     }
+
+    H2 {
+        border: blue solid;
+        align-self: start;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: blue solid;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: blue solid;
+    }
 }
