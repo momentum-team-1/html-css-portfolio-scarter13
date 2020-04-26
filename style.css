@@ -41,6 +41,7 @@ H2 {
     border: blue solid;
 }
 
+
 }
 .profilePicture{
     padding: 20px;
@@ -69,5 +70,13 @@ H2 {
         justify-content: space-between;
         align-items: center;
         border: blue solid;
+    }
+
+    .firsty{
+        order: -1;
+    }
+
+    .lastly{
+        order 5;
     }
 }
