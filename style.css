@@ -1,0 +1,80 @@
+.border{
+    border: blue solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexItem{
+    padding: 20px;
+    margin: 20px;
+}
+
+.flexItem2{
+    margin: 0px 16px 16px 0;
+    align-items: flex-start;
+}
+
+.limitedMargin{
+    margin: 0 0 0 0;
+}
+
+
+.profilePicture{
+    padding: 20px;
+    margin: 20px;
+}
+
+@media (max-width: 576px) {
+
+    H2 {
+        align-self: start;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .firsty{
+        order: -1;
+    }
+
+    .flexItem3{
+        align-items: flex-start;
+        justify-self: start;
+    }
+
+    .lastly{
+        order: 5;
+    }
+}
